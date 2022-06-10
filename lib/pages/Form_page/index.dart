@@ -88,7 +88,7 @@ class _FormPageState extends State<FormPage> {
     if (value != null || value.isNotEmpty) {
       final RegExp regex = RegExp(
           r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)| (\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$');
-      if (!regex.hasMatch(value!))
+      if (!regex.hasMatch(value))
         return 'Enter a valid email';
       else
         return null;

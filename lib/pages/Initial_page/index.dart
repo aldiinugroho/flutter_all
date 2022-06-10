@@ -83,7 +83,9 @@ class _InitialState extends State<InitialPage> {
       {"page": "/localstatedatapage", "pagename": "local"},
       {"page": "/webviewpage", "pagename": "webview"},
       {"page": "/imagepage", "pagename": "image"},
-      {"page": "/formpage", "pagename": "form"}
+      {"page": "/formpage", "pagename": "form"},
+      {"page": "/senderpage", "pagename": "sender"},
+      {"page": "/receivepage", "pagename": "receive"}
     ];
 
     List<Widget> widgets = myarraypages

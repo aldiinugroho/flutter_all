@@ -4,6 +4,7 @@ import 'package:my_app_learn/pages/Form_page/index.dart';
 import 'package:my_app_learn/pages/Image_page/index.dart';
 import 'package:my_app_learn/pages/Initial_page/index.dart';
 import 'package:my_app_learn/pages/Localstatedata_page/index.dart';
+import 'package:my_app_learn/pages/Main_page/index.dart';
 import 'package:my_app_learn/pages/Receive_page/index.dart';
 import 'package:my_app_learn/pages/Sender_page/index.dart';
 import 'package:my_app_learn/pages/Test_page/index.dart';
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(routes: <String, WidgetBuilder>{
-      '/': (BuildContext context) => InitialPage(),
+      '/mainpage': (BuildContext context) => InitialPage(),
+      '/': (BuildContext context) => MainPage(),
       '/testpage': (BuildContext context) => TestPage(),
       '/covidpage': (BuildContext context) => CovidPage(),
       '/localstatedatapage': (BuildContext context) => LocalstatedataPage(),

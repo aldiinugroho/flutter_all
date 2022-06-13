@@ -26,3 +26,6 @@ samples, guidance on mobile development, and a full API reference.
 - [] save image
 - [] save file
 - [] pdf viewer
+- [] map / location
+- [] build ios
+- [] build android

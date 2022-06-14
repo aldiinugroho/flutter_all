@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## List learn
 
-- [] image scroll container
+- [done] image scroll container
 - [] date picker
 - [] shared_preferences
 - [] notification

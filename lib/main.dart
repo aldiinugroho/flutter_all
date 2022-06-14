@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app_learn/pages/Carousel_page/index.dart';
 import 'package:my_app_learn/pages/Covid_page/index.dart';
 import 'package:my_app_learn/pages/Form_page/index.dart';
 import 'package:my_app_learn/pages/Image_page/index.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
       '/formpage': (BuildContext context) => FormPage(),
       '/senderpage': (BuildContext context) => SenderPage(),
       '/receivepage': (BuildContext context) => ReceivePage(),
+      '/carouselpage': (BuildContext context) => CarouselPage(),
     });
   }
 }

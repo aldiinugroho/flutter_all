@@ -87,7 +87,8 @@ class _HomePageState extends State<HomePage> {
       {"page": "/imagepage", "pagename": "image"},
       {"page": "/formpage", "pagename": "form"},
       {"page": "/senderpage", "pagename": "sender"},
-      {"page": "/receivepage", "pagename": "receive"}
+      {"page": "/receivepage", "pagename": "receive"},
+      {"page": "/carouselpage", "pagename": "carousel"}
     ];
 
     List<Widget> widgets = myarraypages
